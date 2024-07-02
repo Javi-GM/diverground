@@ -6,7 +6,10 @@
         "dev": "next dev",
         "build": "next build",
         "start": "next start",
-        "lint": "next lint"
+        "lint": "npx @biomejs/biome lint ./",
+        "format": "npx @biomejs/biome format ./",
+        "check": "npx @biomejs/biome check ./",
+        "check:write": "npx @biomejs/biome check --write ./"
     },
     "dependencies": {
         "next": "14.2.4",
